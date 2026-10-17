@@ -1,0 +1,27 @@
+# Raw dataset files (do NOT commit to GitHub per project requirements)
+data/raw/
+data/processed/
+*.zip
+
+# Model artifacts (store on Google Drive instead)
+models/
+*.pkl
+*.joblib
+*.h5
+saved_model/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
